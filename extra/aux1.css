@@ -1,0 +1,47 @@
+#rightbar{
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#bg1 {
+    background: url("../assets/students.jpg") repeat-x;
+    background-size: cover;
+    
+    
+}
+
+.admin-col-2{
+    background: url("../assets/class1.jpg") no-repeat;
+    background-size: cover;
+}
+
+.sizes{
+    float: left;
+    width: 100px;
+    height: 100px;
+    object-fit: cover; 
+}
+
+/*
+.card-signup{
+    max-width: 420px;
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/*
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+*/
